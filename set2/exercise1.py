@@ -21,15 +21,15 @@ some_words = ["what", "does", "this", "line", "do", "?"]
 
 for word in some_words:
     print(word)
-
+# I think this will print "word" by calling the print function
 for x in some_words:
     print(x)
-
+# I think this will print "what does this line do?" by calling the print function
 print(some_words)
-
+# I think this will print "what does this line do?" by calling the print function
 if len(some_words) > 3:
     print("some_words contains more than 3 words")
-
+# I think this will print "some_words contains more than 3 words"
 
 def usefulFunction():
     """
