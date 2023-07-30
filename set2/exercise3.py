@@ -13,7 +13,10 @@ def is_odd(a_number):
 
     So if a_number modulo two is zero, then it's even.
     """
-    return None 
+    if a_number % 2 == 0:
+        return False
+    else:
+        return True
 
 
 def fix_it(moves=True, should_move=True):
@@ -31,7 +34,12 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    return 
+    if moves and should_move:
+        return "No Problem"
+    elif moves and not should_move:
+        return "Duct Tape"
+    else:
+        return "WD-40"
 
 
 def loops_preview():
@@ -55,7 +63,7 @@ def loops_1a():
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
     choc_list = []
-    for i in range(10): 
+    for i in range(10):
         choc_list.append("*")
     return choc_list
 
@@ -148,7 +156,7 @@ def loops_4():
     """
     choc_list = []
     for _ in range(10):
-        row = [str(i) for i in range (10)]
+        row = [str(i) for i in range(10)]
         choc_list.append(row)
     return choc_list
 
@@ -182,7 +190,7 @@ def loops_5():
     """
     choc_list = []
     for i in range(10):
-        row = [(f"(i{i}, j{j})") for j in range (5)]
+        row = [(f"(i{i}, j{j})") for j in range(5)]
         choc_list.append(row)
     return choc_list
 
@@ -209,7 +217,7 @@ def loops_6():
     """
     choc_list = []
     for i in range(10):
-        row = [str(j) for j in range (i+1)]
+        row = [str(j) for j in range(i + 1)]
         choc_list.append(row)
     return choc_list
 
@@ -237,10 +245,9 @@ def loops_7():
     """
     choc_list = []
     for i in range(5):
-        row = [''] * (4 - i) + ['*'] * (2 * i + 1) + [''] * (4 - 1)
+        row = [""] * (4 - i) + ["*"] * (2 * i + 1) + [""] * (4 - 1)
         choc_list.append(row)
     return choc_list
-
 
 
 def little_printer(some_kind_of_list, exercise_name):

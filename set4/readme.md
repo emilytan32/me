@@ -1,1 +1,4 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+In set 4 i learnt how to open data, request and get information from a website, and read a G-code file, python was able to count the number of occurrences of the command "M10 P1" in the G-code file, which represents the turning on and off of the laser. Then it creates a file and writes the number of occurrences. Trying to do this was difficult but it makes sense make a new file was difficult but it makes sense now as i followed these steps;
+
+     Defines the function, Sets the input and output file names, Opens the input G-code file in read mode, reads its content into the gcode_content variable, Counts the number of occurrences of the string "M10 P1" and store it in the laser_count variable, Opens the output file in write mode, writes the laser_count converted to a string using str() to the file.

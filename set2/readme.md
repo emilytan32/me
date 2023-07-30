@@ -1,3 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
-excersize 3 was tricky but I managed to continue to test and try different methods to achieve the results.
-i 
+Set 2, excersize 3 was definitely more tricky than Set 1 as I had to try and look at the questions differently than I would normally. The answers were in the form of general formulas, not specific numbers or statements. It was hard to wrap my head around it at first, but I am starting to train myself to attempt questions in that way.

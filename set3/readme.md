@@ -1,5 +1,5 @@
 TODO: Reflect on what you learned this week and what is still unclear.
-I actualy found excersize 3 in this set fun as i struggled a bit with how to incorporate ⬇️
+I actualy found excersize 3 in this set fun, i just struggled a bit with how to incorporate ⬇️
     "except ValueError:
             print("Invalid input. Please enter a valid number.")"
-but with much trial and error and a little help from chat GPT i got it and i felt accomplished.
+because I wasnt sure where to fit it in the code but I worked it out as it went at the end of each loop. 
