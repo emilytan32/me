@@ -1,1 +1,2 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+data project:
+This dataset encompasses 366 ski resorts, all located in the US. The dataset comprises 15 columns that provide comparisons based on attributes such as summit, base, vertical, lifts, runs, acres, green percentage, green acres, blue percentage, blue acres, black percentage, black acres, latitude, and longitude. 

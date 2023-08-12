@@ -41,9 +41,14 @@ def binary_search(low, high, actual_number):
             print(f"Guess {tries}: {mid} (Too high)")
             high = mid - 1
 
-    # Write your code in here
+    return {"guess": None, "tries": tries}
 
-    return {"guess": guess, "tries": tries}
+
+low = 1
+high = 100
+actual_number = 42
+result = binary_search(low, high, actual_number)
+print("Binary search result:", result)
 
 
 if __name__ == "__main__":

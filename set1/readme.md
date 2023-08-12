@@ -1,2 +1,2 @@
-I am a very good person as i learnt how to complete all easily.
-I was able to write my first python program.
+During Set One, I initially established my dev environment by creating accounts on GitHub and Stack Overflow. The next step involved downloading necessary software onto my computer, including VS Code, Python, and Git. Subsequently, I proceeded to acquire the content onto my computer through the processes of cloning and forking the design computing folder. This process became slightly complicated when I began working within the course folder instead of the designated "me" folder.
+Once I had successfully configured everything, I embarked on my first programming task by printing the classic "hello world" message. I then executed a test, which passed without any issues. This initial programming experience was rather straightforward, leaving me satisfied with the progress I had made.

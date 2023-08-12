@@ -31,6 +31,7 @@ if len(some_words) > 3:
     print("some_words contains more than 3 words")
 # I think this will print "some_words contains more than 3 words"
 
+
 def usefulFunction():
     """
     You may want to look up what uname does before you guess
