@@ -1,1 +1,3 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+This week I successfully created a map featuring all the ski resorts in the US. Notably, resorts with greater verticals tend to be situated predominantly on the west side, while those with lower verticals are concentrated on the northeast side.
+
+While writing the code for the map, I encountered challenges. Finding the appropriate file containing the outline of the US for plotting my points proved to be difficult. I eventually located a suitable file. Separating the low and high vertical resorts also posed a challenge, but I devised a solution: I divided them into two equal groups using the following approach: "top_50_percent = sorted_states.iloc[int(len(sorted_states) * 0.5):]" and "bottom_50_percent = sorted_states.iloc[:int(len(sorted_states) * 0.5)]".
